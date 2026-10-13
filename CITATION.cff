@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "TwinInvalidate"
+abstract: "Model-invalidation monitor for a digital twin — CUSUM, EWMA and windowed GLR with thresholds set from a declared false-alarm target rather than tuned to the result, detection-delay against false-alarm-rate (ARL0/ARL1) curves per change type for a parameter step, a slow ramp and a noise-variance change, and an explicit statement that twin invalidation and asset fault are not distinguishable from the residual; learned drift classifier on windowed residual features against the analytic GLR baseline."
+type: software
+authors:
+  - family-names: "Acharya"
+    given-names: "Om"
+    alias: "OmAcharya-avtr"
+repository-code: "https://github.com/OmAcharya-avtr/twininvalidate"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-08-30"
+keywords:
+  - aerospace
+  - digital-twins

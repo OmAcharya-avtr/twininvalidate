@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+dist/
+build/
+
+# Data and models — regeneration scripts are committed instead
+*.ckpt
+*.pt
+*.pth
+*.onnx
+data/raw/
+models/checkpoints/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and temp
+*.log
+tmp/
